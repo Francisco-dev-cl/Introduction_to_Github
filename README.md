@@ -1,44 +1,53 @@
 # Introduction to GitHub Assignment
 
-Este repositorio contiene un proyecto práctico introductorio diseñado para dominar los fundamentos del control de versiones con **Git** y la interacción con repositorios remotos en **GitHub**, utilizando **Python** como lenguaje de soporte.
+This repository contains an introductory practical project designed to master the fundamentals of version control with **Git** and interaction with remote repositories on **GitHub**, using **Python** as the supporting language.
 
-## 🎯 Objetivo del Proyecto
-El propósito de este proyecto es demostrar el flujo de trabajo básico de un desarrollador de software: clonar un repositorio, realizar modificaciones en el código local, crear confirmaciones (*commits*) y enviar los cambios de manera exitosa a un servidor remoto.
+## 🎯 Project Objective
 
-## 📁 Estructura del Repositorio
-*   **`example.py`**: Script principal en Python que define y ejecuta una función de prueba para validar la salida en consola al subir el archivo.
-*   **`empty_file`**: Archivo auxiliar utilizado para practicar la creación, seguimiento (`git add`) y gestión de nuevos elementos dentro del árbol de trabajo.
+The purpose of this project is to demonstrate the basic workflow of a software developer: cloning a repository, making modifications to local code, creating commits, and successfully pushing changes to a remote server.
 
-## 🛠️ Tecnologías Utilizadas
-*   **Lenguaje:** Python 3.x
-*   **Herramientas:** Git y GitHub
+## 📁 Repository Structure
 
-## 🚀 Instalación y Ejecución
+* **example.py**: Main Python script that defines and executes a test function to validate the console output when uploading the file.
+* **empty_file**: Auxiliary file used to practice creating, tracking (`git add`), and managing new items within the working tree.
 
-Si deseas clonar este proyecto y probarlo de forma local, sigue estos pasos en tu terminal:
+## 🛠 Technologies Used
 
-### 1. Clonar el repositorio
+* **Language:** Python 3.x
+* **Tools:** Git and GitHub
+
+## 🚀 Installation and Execution
+
+If you want to clone this project and test it locally, follow these steps in your terminal:
+
+### 1. Clone the repository
+
 ```bash
 git clone https://github.com
 ```
 
-### 2. Acceder al directorio del proyecto
+### 2. Access the project directory
+
 ```bash
 cd Introduction_to_Github
 ```
 
-### 3. Ejecutar el script de prueba
-Asegúrate de tener instalado Python y ejecuta el siguiente comando:
+### 3. Run the test script
+
+Make sure you have Python installed and run the following command:
+
 ```bash
 python example.py
 ```
 
-**Salida esperada en consola:**
+**Expected console output:**
+
 ```text
 I am adding example.py file to the remote repository.
 ```
 
-## 📈 Habilidades Demostradas (Para Equipos de Reclutamiento)
-*   **Uso de Git CLI:** Gestión de comandos esenciales en la terminal (`git clone`, `git add`, `git commit`, `git push`).
-*   **Fundamentos de Python:** Creación, definición y llamada de funciones básicas.
-*   **Buenas Prácticas:** Estructuración limpia de proyectos y documentación clara del entorno de desarrollo.
+## 📈 Demonstrated Skills (For Recruitment Teams)
+
+* **Git CLI Usage:** Management of essential terminal commands (`git clone`, `git add`, `git commit`, `git push`).
+* **Python Fundamentals:** Creation, definition, and invocation of basic functions.
+* **Best Practices:** Clean project structuring and clear documentation of the development environment.
